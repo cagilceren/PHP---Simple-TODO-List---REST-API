@@ -50,7 +50,7 @@ Namely
 
 Additionally, i have created a "getAll()" function in order to get all the existing reminders in the database.
 
-Moreover i have used PHP Prepared Statements to prevent the MySQL Injection. (See: [Prepared Statements](https://www.php.net/manual/en/mysqli.quickstart.prepared-statements.php)).
+Moreover, i have used PHP Prepared Statements to prevent the MySQL Injection. (See: [Prepared Statements](https://www.php.net/manual/en/mysqli.quickstart.prepared-statements.php)).
 
 In the functions I have checked the possible error resources and throwed a related Exception. Later on i catched these Exceptions globally to show a structured error message for applications repository layer. Successfull requests return "HTTP 200 OK" while unsuccessfull ones return "HTTP 500 Internal Server Error!".
 
