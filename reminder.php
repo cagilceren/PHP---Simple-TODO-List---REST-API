@@ -1,7 +1,7 @@
 <?php
 include_once 'connection.php';
 /**
- * This is a reminder REST API service which can get, update and delete the user's TODO list.
+ * This is a reminder REST API service which can get, update and delete the user's TO-DO list.
  * User Stories:
  *      1) The user can add a new reminder.
  *      2) The user can delete an existing reminder.
