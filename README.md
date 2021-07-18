@@ -26,7 +26,7 @@ In this project, I have created REST API Service for a TO-DO App.
 
 ## Tools & Technologies
 - Postman
-- Json
+- JSON
 - Rest API
 
 ## Highlights
