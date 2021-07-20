@@ -100,8 +100,7 @@ function get($id) {
 
 function getAll() {
     $mysqlConnection = connect();
-    $sql = "SELECT * FROM Reminder";
-    $result = $mysqlConnection->query($sql);
+    $result = $mysqlConnection->query("SELECT * FROM Reminder");
     if ($result != TRUE) {
         throw new Exception("SQL query is not successfull.");
     }
