@@ -14,7 +14,7 @@
 
 <br>
 
-This project is created as a part of self-learning. 
+This project has been created as a part of self-learning. 
 
 In this project, I have created REST API Service for a TO-DO App.  
 
@@ -33,7 +33,7 @@ In this project, I have created REST API Service for a TO-DO App.
 
 During the project I have returned all data as json format, so that it could be used directly in future web and mobile applications.
 
-The connect function has been created seperately as "[connection.php](https://github.com/cagilceren/PHP-Simple-TO-DO-List-REST-API/blob/main/connection.php)" and inclueded to "[reminder.php](https://github.com/cagilceren/PHP-Simple-TO-DO-List-REST-API/blob/main/reminder.php)" for the efficiancy and readability.
+The connect function has been created separately as "[connection.php](https://github.com/cagilceren/PHP-Simple-TO-DO-List-REST-API/blob/main/connection.php)" and inclueded to "[reminder.php](https://github.com/cagilceren/PHP-Simple-TO-DO-List-REST-API/blob/main/reminder.php)" for the efficiancy and readability.
 
 In this project 4 different functions created after CRUD based on [RESTful web API design](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design). 
 
@@ -41,18 +41,18 @@ Namely
 
 - to **Create** a new reminder to the database "post()",
 	
-- to **Read** a existing reminder in the database "get()",
+- to **Read** an existing reminder in the database "get()",
 	
 - to **Update** an existing reminder in the database "put()",
 	
 - to **Delete** an existing reminder from the database "delete()".
 
 
-Additionally, i have created a "getAll()" function in order to get all the existing reminders in the database.
+Additionally, I have created a "getAll()" function in order to get all the existing reminders in the database.
 
-Moreover, i have used PHP Prepared Statements to prevent the MySQL Injection. (See: [Prepared Statements](https://www.php.net/manual/en/mysqli.quickstart.prepared-statements.php)).
+Moreover, I have used PHP Prepared Statements to prevent the MySQL Injection. (See: [Prepared Statements](https://www.php.net/manual/en/mysqli.quickstart.prepared-statements.php)).
 
-In the functions I have checked the possible error resources and throwed a related Exception. Later on i catched these Exceptions globally to show a structured error message for applications repository layer. Successfull requests return "HTTP 200 OK" while unsuccessfull ones return "HTTP 500 Internal Server Error!".
+In the functions I have checked the possible error resources and threw a related Exception. Later on I caught these Exceptions globally to show a structured error message for applications repository layer. Successful requests return "HTTP 200 OK" while unsuccessful ones return "HTTP 500 Internal Server Error!".
 
 
 ## Usage
